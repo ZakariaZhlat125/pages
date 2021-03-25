@@ -1,0 +1,9 @@
+<!-- templates/base-->
+<html>
+    <a href="{% url 'home'%}">Home</a> | <a href="{%url 'about'%}">About</a>
+    <h1 style= color:red;>Zakaria</h1>
+   
+    {% block content %}
+         <h1> BasePage</h1>
+    {%endblock content%}
+</html>
